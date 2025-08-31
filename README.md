@@ -2,7 +2,7 @@
 # ⌨️ Typing Speed Test
 
 A **web-based Typing Speed Test App** built with **HTML, CSS, and JavaScript**.
-It allows users to test their typing speed, accuracy, and practice typing effectively.
+Test your typing skills by measuring **speed, accuracy, and time** in real-time.
 
 🌐 **Live Demo**: [Typing Speed Test Demo](https://gentle-maamoul-7f8442.netlify.app/)
 
@@ -10,11 +10,12 @@ It allows users to test their typing speed, accuracy, and practice typing effect
 
 ## 🚀 Features
 
-✅ Measure Words Per Minute (WPM)
-✅ Track typing **accuracy**
+✅ Real-time **Words Per Minute (WPM)** calculation
+✅ Track **typing accuracy**
+✅ Shows **elapsed time**
 ✅ Reset and retry typing test
 ✅ Mobile-friendly responsive UI
-✅ 100% frontend — no backend required
+✅ Fully frontend — no backend required
 
 ---
 
@@ -50,18 +51,26 @@ cd typing-speed-test
 
 3️⃣ Start typing the displayed text
 
-4️⃣ See your **WPM**, **accuracy**, and reset to try again
+4️⃣ Track **WPM**, **accuracy**, and **time** in real-time
+
+5️⃣ Reset to try again
 
 ---
 
 ## 📸 Example
 
-* Start typing the given paragraph
-* Track your speed and accuracy in real-time
+* The app displays:
+
+  * **Time** elapsed since start
+  * **Words per Minute (WPM)**
+  * **Accuracy (%)**
+
+* Provides instant feedback while typing
 
 ---
 
 ## 📜 License
 
 This project is licensed under the **MIT License**.
+
 
