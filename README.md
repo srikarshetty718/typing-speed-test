@@ -1,74 +1,67 @@
-                                                ⌨️ Typing Speed Test App
 
-Project Overview :
+# ⌨️ Typing Speed Test
 
-This is a modern, web-based typing speed test application that measures a user's typing proficiency. Built with a focus on simplicity and accuracy, the app provides an engaging way for users to practice and improve their typing skills. It calculates key metrics such as Words Per Minute (WPM), accuracy, and highlights incorrect words in real-time. This project is a great demonstration of dynamic UI updates, state management, and event-driven programming.
+A **web-based Typing Speed Test App** built with **HTML, CSS, and JavaScript**.
+It allows users to test their typing speed, accuracy, and practice typing effectively.
 
-Key Features ✨:
+🌐 **Live Demo**: [Typing Speed Test Demo](https://gentle-maamoul-7f8442.netlify.app/)
 
-Real-Time Metrics: Instantly displays WPM and accuracy as the user types.
+---
 
-Dynamic Text: 
-Fetches new paragraphs of text for testing, providing a fresh challenge with each new session.
+## 🚀 Features
 
-Visual Feedback: Correctly typed words turn green, while incorrect words are highlighted in red for clear visual feedback.
+✅ Measure Words Per Minute (WPM)
+✅ Track typing **accuracy**
+✅ Reset and retry typing test
+✅ Mobile-friendly responsive UI
+✅ 100% frontend — no backend required
 
-Progress Bar: A progress bar visually indicates how much of the test text has been completed.
+---
 
-Responsive Design: The application is fully optimized for all device sizes, ensuring a consistent user experience on desktops, tablets, and mobile phones.
+## 🛠️ Tech Stack
 
-Technologies Used 🛠️
-HTML5: Provides the semantic structure for the application's interface.
+* **HTML5**
+* **CSS3**
+* **JavaScript (Vanilla JS)**
 
-CSS3: Used for styling, including the dynamic word highlighting and responsive layout.
+---
 
-JavaScript (ES6+): The core logic for handling user input, calculating WPM and accuracy, and managing the UI's state.
+## 📂 Project Structure
 
-Typing Text: A collection of pre-defined text snippets stored as an array in JavaScript.
+```
+📦 typing-speed-test  
+ ┣ 📜 index.html     # Main HTML file  
+ ┣ 📜 style.css      # Styles  
+ ┗ 📜 script.js      # Typing speed logic  
+```
 
-Project Architecture & File Structure 📁
-The project's structure is clean and follows a simple, single-page architecture.
+---
 
-/typing-speed-test-app
-├── index.html           # The main entry point containing the UI structure.
-├── style.css            # Stylesheet for all visual components.
-└── script.js            # Contains all core JavaScript logic.
+## ⚡ How to Use
 
-How to Use 🚀
-Open the application in your web browser.
+1️⃣ Clone or download the repository
 
-The test will automatically begin. Start typing the text displayed in the box.
+```bash
+git clone https://github.com/your-username/typing-speed-test.git
+cd typing-speed-test
+```
 
-The application will automatically track your progress, WPM, and accuracy.
+2️⃣ Open `index.html` in your browser
 
-Live Demo & Repository
-Live Demo: https://gentle-maamoul-7f8442.netlify.app/
+3️⃣ Start typing the displayed text
 
-GitHub Repository: [Your GitHub Repository URL Placeholder]
+4️⃣ See your **WPM**, **accuracy**, and reset to try again
 
-Why This Project is Valuable 👍
-This project is a solid portfolio piece that demonstrates key frontend development skills:
+---
 
-Event Handling: Capturing and processing keyboard input to drive the application's core functionality.
+## 📸 Example
 
-State Management: Efficiently managing the state of the test, including the current word, WPM, and accuracy.
+* Start typing the given paragraph
+* Track your speed and accuracy in real-time
 
-String Manipulation: Working with text data to compare user input against the test paragraph.
+---
 
-UI/UX: Providing a clean and intuitive user interface with helpful real-time feedback.
+## 📜 License
 
-Performance Optimization: Ensuring smooth performance even with rapid user input.
+This project is licensed under the **MIT License**.
 
-Future Enhancements 🔮
-
-Timed Tests: Add an option for timed tests (e.g., 60 seconds) instead of paragraph-based tests.
-
-Leaderboard: Implement a leaderboard using a backend or local storage to track and compare scores.
-
-User Accounts: Allow users to create accounts to save their progress and view their typing history.
-
-Custom Text: Enable users to paste their own text for a custom typing test.
-
-Author ✍️
-
-Srikar Sambu 
